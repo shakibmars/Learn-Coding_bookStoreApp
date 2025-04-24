@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "book_name": "The Silent Sea",
+      "book_title": "A Deep Dive into Ocean Mysteries",
+      "price": 0,
+      "category": "Science",
+      "image": "https://marketplace.canva.com/EAGSq6eHvuk/1/0/1003w/canva-_4NUlBXGmzM.jpg"
+    },
+    {
+      "id": 2,
+      "book_name": "Mind Over Matter",
+      "book_title": "Exploring Human Consciousness",
+      "price": 12.50,
+      "category": "Psychology",
+      "image": "https://marketplace.canva.com/EAFgjwxYRrA/2/0/251w/canva-KkFA5jAr_0s.jpg"
+    },
+    {
+      "id": 3,
+      "book_name": "Code & Logic",
+      "book_title": "Mastering JavaScript",
+      "price": 0,
+      "category": "Technology",
+      "image": "https://marketplace.canva.com/EAGNyvnk37Q/1/0/251w/canva-2BqY3VlaVuc.jpg"
+    },
+    {
+      "id": 4,
+      "book_name": "Whispers of the Wind",
+      "book_title": "A Journey Through Poetry",
+      "price": 0,
+      "category": "Literature",
+      "image": "https://marketplace.canva.com/EAGUQWwvdu0/1/0/251w/canva--JP5HkLqCJ4.jpg"
+    },
+    {
+      "id": 5,
+      "book_name": "The Startup Manual",
+      "book_title": "How to Launch Your Business",
+      "price": 0,
+      "category": "Business",
+      "image": "https://marketplace.canva.com/EAFlHhpAMfU/2/0/251w/canva-XYEJ2HVS7Es.jpg"
+    },
+    {
+      "id": 6,
+      "book_name": "The Gourmet's Guide",
+      "book_title": "Delicious Recipes from Around the World",
+      "price": 16.75,
+      "category": "Cooking",
+      "image": "https://marketplace.canva.com/EAFlEyL-7xQ/2/0/251w/canva-mI9HrbTI7J0.jpg"
+    },
+    {
+      "id": 7,
+      "book_name": "The Last Voyage",
+      "book_title": "An Epic Tale of Adventure",
+      "price": 0,
+      "category": "Fiction",
+      "image": "https://marketplace.canva.com/EAGc7xEgIM8/1/0/251w/canva-FKn4k-z5n1Q.jpg"
+    },
+    {
+      "id": 8,
+      "book_name": "Sketches & Stories",
+      "book_title": "A Creative’s Notebook",
+      "price": 11.20,
+      "category": "Art",
+      "image": "https://marketplace.canva.com/EAFr0zxJzQg/2/0/251w/canva-XKVhpZleNKw.jpg"
+    },
+    {
+      "id": 9,
+      "book_name": "Plant Power",
+      "book_title": "The Healing Properties of Herbs",
+      "price": 13.60,
+      "category": "Health",
+      "image": "https://marketplace.canva.com/EAGTW6WX448/1/0/251w/canva-_QWDgSTgPEU.jpg"
+    },
+    {
+      "id": 10,
+      "book_name": "Time Travelers",
+      "book_title": "Science Fiction from the Future",
+      "price": 17.99,
+      "category": "Sci-Fi",
+      "image": "https://marketplace.canva.com/EAGSPSg_IOw/1/0/251w/canva-16K_IGyE7D0.jpg"
+    }
+  ]
+  
