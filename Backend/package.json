@@ -1,0 +1,29 @@
+{
+  "name": "learn-coding_book-store-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakibmars/Learn-Coding_bookStoreApp.git"
+  },
+  "author": "Abdur Rahman Shakib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shakibmars/Learn-Coding_bookStoreApp/issues"
+  },
+  "homepage": "https://github.com/shakibmars/Learn-Coding_bookStoreApp#readme",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.3",
+    "nodemon": "^3.1.10"
+  }
+}

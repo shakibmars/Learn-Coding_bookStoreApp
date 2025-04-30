@@ -1,51 +1,66 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
+import axios from 'axios'
 
-import List from '../../public/list.json'
+// import List from '../../public/list.json'
 import Card from './Card';
 
 
 const FreeBook = () => {
-    let filterData = List.filter(item=> item.price===0)
-    // console.log(filterData)
+  const [book, setBook] = useState([])
+  useEffect(()=>{
+    async function getBook(){
+      try{
+        let res = await axios.get('http://localhost:4000/book')
+        // console.log(res.data)
+        setBook(res.data)
+      }catch(error){
+        console.log('my error: ', error)
+      }
+    }
+    getBook()
+  }, [])
 
-    var settings = {
-      dots: true,
-      infinite: false,
-      speed: 500,
-      slidesToShow: 3,
-      slidesToScroll: 3,
-      initialSlide: 0,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            initialSlide: 2
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
+  let filterData = book.filter(item=> item.price===0)
+  // console.log(filterData)
+
+  var settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
         }
-      ]
-    };
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
 
   return (
     <>
